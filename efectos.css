@@ -1,0 +1,33 @@
+	table
+{
+ border:1px solid #000;
+ border-collapse:collapse;
+}
+
+table th
+{
+ background: #32A2FF;
+ border:1px solid white;
+ padding:50px;
+align="center";
+}
+
+table td
+{
+ background: #33D7FF;
+ border:1px solid white;
+ padding:10px;
+}
+
+table th:hover
+{
+ background: black;
+ color: white;
+}
+
+table td:hover
+{
+ background: #35E26A;
+ color: white;
+}
+

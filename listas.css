@@ -1,0 +1,38 @@
+ul
+{
+ list-style-type:circle; /*circulo sin relleno*//*square marca la viñeta como cuadrado*/
+}
+
+ol
+{
+ list-style-type:decimal-leading-zero;/*inicia con "0", lower-latin pone letras en minusculas y upper-latin en mayusculas*/
+}
+
+
+.menu
+{
+ background:#ccc; /*pone fondo a la lista*/
+ list-style:none; /*quita las viñetas*/
+ /*quita margenes a la lista*/
+ margin:0;
+ padding:0;
+}
+
+.menu li
+{
+ display:inline-block; /* pone los elementos de la lista de forma horizontal*/
+}
+
+.menu li a
+{
+ padding:10px 20px; /* pone un margen a los elementos de la lista que estan de forma horizontal*/
+ display:inline-block; 
+ color:#000; 
+}
+
+
+.menu li a:hover /*hover permite que el cambie el color del texto al pasar el mouse por el*/
+{
+ background:#ccc;
+ color:#fff;
+}
